@@ -33,3 +33,7 @@ def printfile(filename):
         print(line)
 
 ```
+
+The function `printfile` will take a string as a parameter. This string is the name of some real file stored in the same folder as the code. Once the function reads the filename, it will open it and read all the lines from the file into a list called `lines`. In the following `for` loop, we simply print out each line from that list and call it a day.
+
+Congrats, you've just started your journey into the wonderful world of data persistence! 🚀🛰
