@@ -23,8 +23,13 @@ This code takes information from the user and then prints it out. But once the p
 But what if the user already wrote some information in another file and we want to print the contents of that file instead of making them everything all over again? Let's take a look at how we can do that:
 
 ```
-def readfile(filename):
+def printfile(filename):
 
-    # yeah boi
+    file = open(filename, "r") # open the file
+    lines = list(file) # store all the lines in a list
+
+    # Now print the list
+    for line in lines:
+        print(line)
 
 ```
