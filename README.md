@@ -1,6 +1,6 @@
 # Databases and Data Persistence
 
-Welcome to the workshop! Today we're going to be talking about Databases and Data Persistence. It sounds advanced, but we promised its not. It's actually really cool and once you learn it, you'll be able to use it to make your personal projects twice as awesome!
+Welcome to the workshop! Today we're going to be talking about Databases and Data Persistence. It sounds advanced, but we promise its not. It's actually really cool and once you learn it, you'll be able to use it to make your personal projects twice as awesome!
 
 *And since it sounds so advanced, you'll sound extra smart when you talk about it with other people (since you are already smart, you smarty! 🤓)*
 

@@ -3,11 +3,11 @@
 #### Now that we know why we might want to use data persistence, let's get started with some basic knowledge!
 
 <br>
-**Data Persistence** literally just means that data is persistent. In other words, it means that data stays even after the program finishes running.
+**Data Persistence** literally just means that data is persistent. In other words, it means that data remains even after the program finishes running.
 
-Normally, when programming, we'll store information in *variables*, and variables are cool and all, but they have one tragic flaw: once a program ends, variables lose all of their information.
+Normally, when programming, we'll store information in *variables*. Variables are cool and all, but they have one tragic flaw: once a program ends, they lose all of their information.
 
-This means that once a program ends, all of things we stored in variables will be gone *forever* (\*scary sound effect\*).
+This means that once a program is done running, all of things we stored in variables will be gone *forever* (\*cue scary sound effect\*).
 
 Let's look at an example of this:
 
@@ -20,7 +20,7 @@ def print_some_data():
 ```
 This code takes information from the user and then prints it out. But once the program ends, the program forgets everything that it once held. This is why if you run the code several times with different inputs, the result will be different.
 
-But what if the user already wrote some information in another file and we want to print the contents of that file instead of making them everything all over again? Let's take a look at how we can do that:
+But what if the user already wrote some information in another file and we want to print the contents of that file instead of making them re-type everything all over again? Let's take a look at how we can do that:
 
 ```
 def printfile(filename):
