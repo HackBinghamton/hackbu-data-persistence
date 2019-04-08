@@ -3,6 +3,7 @@
 #### Now that we know why we might want to use data persistence, let's get started with some basic knowledge!
 
 <br>
+
 **Data Persistence** literally just means that data is persistent. In other words, it means that data remains even after the program finishes running.
 
 Normally, when programming, we'll store information in *variables*. Variables are cool and all, but they have one tragic flaw: once a program ends, they lose all of their information.
@@ -39,3 +40,5 @@ The function `printfile` will take a string as a parameter. This string is the n
 Congrats, you've just started your journey into the wonderful world of data persistence! 🚀🛰
 
 Now go and check out `using-files.md` to get a bit more in-depth!
+
+For more information on this stuff, there are plenty of web pages that talk about file I/O with python. [Here's a pretty good one](https://www.guru99.com/reading-and-writing-files-in-python.html#1), it is a source for some of the material in this very file! The python documentation is also very helpful, don't be afraid to check it out.
