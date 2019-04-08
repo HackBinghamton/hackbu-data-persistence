@@ -1,0 +1,5 @@
+Segmentation Faults: A Haiku
+---------
+Segmentation Fault
+Please no segmentation fault
+Dang! I still got one
