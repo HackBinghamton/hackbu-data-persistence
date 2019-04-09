@@ -39,6 +39,12 @@ The function `printfile` will take a string as a parameter. This string is the n
 
 Congrats, you've just started your journey into the wonderful world of data persistence! 🚀🛰
 
-Now go and check out `using-files.md` to get a bit more in-depth!
+Now go and check out [`using-files.md`](./using-files.md) to get a bit more in-depth!
 
 For more information on this stuff, there are plenty of web pages that talk about file I/O with python. [Here's a pretty good one](https://www.guru99.com/reading-and-writing-files-in-python.html#1), it is a source for some of the material in this very file! The python documentation is also very helpful, don't be afraid to check it out.
+
+## Table of Contents
+1. [`motivation.md`](./motivation.md)
+2. [`basics.md`](./basics.md)
+3. [`using-files.md`](./using-files.md)
+4. [`datbases.md`](./datbases.md)
