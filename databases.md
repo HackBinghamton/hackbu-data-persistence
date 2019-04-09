@@ -46,4 +46,10 @@ Here are some nice database frameworks that you can start using whenever you wan
 * [SQLite](https://www.mysql.com/)
 * [mongoDB](https://www.mongodb.com/)
 
-SQLite is very simple and easy to use, so that might be the best choice. But if you're advanced or adventurous go ahead and try MySQL! mongoDB is a NoSQL language, which means that you get the beauty of databases without having to learn SQL, it is most commonly used with JavaScript web apps, as it represents the "M" in *__MEAN__* stack (*__M__*ongo, *__E__*xpress, *__A__*ngular, *__N__*ode.js). *____* 
+SQLite is very simple and easy to use, so that might be the best choice. But if you're advanced or adventurous go ahead and try MySQL! mongoDB is a NoSQL language, which means that you get the beauty of databases without having to learn SQL, it is most commonly used with JavaScript web apps, as it represents the "M" in *__MEAN__* stack (*__M__*ongo, *__E__*xpress, *__A__*ngular, *__N__*ode.js). *____*
+
+Congratulations, hacker!! You now know the basics of data persistence! You even know a bit about using databases to make computers remember things for you! This is an exciting time. Remember to use your new powers for good, we can't wait to see what cool things you do. As you continue to explore this new frontier, feel free to ask an organizer for help.
+
+Have fun!
+
+-- Le HackBU Crew
