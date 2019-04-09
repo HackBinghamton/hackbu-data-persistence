@@ -52,7 +52,7 @@ Congratulations, hacker!! You now know the basics of data persistence! You even 
 
 Have fun!
 
--- Le HackBU Crew
+&mdash; Le HackBU Crew
 
 ## Table of Contents
 1. [`motivation.md`](./motivation.md)
