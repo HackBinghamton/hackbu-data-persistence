@@ -31,3 +31,19 @@ Different databases are implemented in different ways, but there is a basic stru
 In a database, the user (you) can create tables, and just like a regular table, each column represents a type of value. This sounds really simple, but it is actually a powerful way to make your data very specific.
 
 In the spirit of our example above, we could easily make a table that is designed to hold a person's name, age, and state of residence (we can even extend the object to split name into first name, last name, and middle initial -- design choice).
+
+#### But How Though?! 🧐
+
+Databases are so common that there's a whole language dedicated to manipulating them! It's called __SQL__, which stands for Structured Query Language. However, most languages (including python) have APIs (Application Program Interfaces) that allow you to create objects that handle database creation for you! From there, all you have to do is create such an object, and pass single SQL instructions into it. You still have to know a bit of the language, but you still get to use your favorite language for the majority of the project (unless you're writing a very database-have proggram, which is cool too!)!
+
+#### So Many Choices, So Little Time ⏰
+
+So now that you've gotten your feet wet with the basics of data persistence and a quick overview of databases, you're ready to start thinking about using this stuff in your own code.
+
+Here are some nice database frameworks that you can start using whenever you want:
+
+* [MySQL](https://www.mysql.com/)
+* [SQLite](https://www.mysql.com/)
+* [mongoDB](https://www.mongodb.com/)
+
+SQLite is very simple and easy to use, so that might be the best choice. But if you're advanced or adventurous go ahead and try MySQL! mongoDB is a NoSQL language, which means that you get the beauty of databases without having to learn SQL, it is most commonly used with JavaScript web apps, as it represents the "M" in *__MEAN__* stack (*__M__*ongo, *__E__*xpress, *__A__*ngular, *__N__*ode.js). *____* 
