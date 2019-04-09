@@ -58,4 +58,4 @@ Have fun!
 1. [`motivation.md`](./motivation.md)
 2. [`basics.md`](./basics.md)
 3. [`using-files.md`](./using-files.md)
-4. [`datbases.md`](./datbases.md)
+4. [`databases.md`](./databases.md)
