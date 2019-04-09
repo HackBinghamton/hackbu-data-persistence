@@ -102,4 +102,10 @@ Now you can take these concepts and expand them in your code to make your progra
 But what happens when we need to store information that is a bit more specific than what a simple text file allows?
 Well fellow hacker, do we have an answer for you!
 
-The answer would be to consider using **databases**! Go to `databases.md` to learn a bit more about what they are and how to use them.
+The answer would be to consider using **databases**! Go to [`databases.md`](./databases.md) to learn a bit more about what they are and how to use them.
+
+## Table of Contents
+1. [`motivation.md`](./motivation.md)
+2. [`basics.md`](./basics.md)
+3. [`using-files.md`](./using-files.md)
+4. [`datbases.md`](./datbases.md)
