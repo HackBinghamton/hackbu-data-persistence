@@ -4,7 +4,7 @@ Welcome to the workshop! Today we're going to be talking about Databases and Dat
 
 *And since it sounds so advanced, you'll sound extra smart when you talk about it with other people (since you are already smart, you smarty! 🤓)*
 
-To get started, head over to `motivation.md` to read about the uses of databases and data persistence.
+To get started, head over to [`motivation.md`](./motivation.md) to read about the uses of databases and data persistence.
 
 As always, please ask for help from an organizer (they're literally everywhere) if you get lost. We're here to help, so don't hesitate. And be sure to be respectful of your fellow hackers. It's gonna be a fun time!
 
