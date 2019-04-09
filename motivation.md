@@ -14,4 +14,10 @@ Let's look at some examples of this:
 See? There are plenty of reasons why you might want to use databases and/or data persistence in your project. Most sophisticated programs use them these days, so it might be a good idea to consider.
 
 Lettuce begin! 🥗 🥗
-Start by heading over to `basics.md`. There we'll start talking about (you guessed it) the basics and feast our eyes on some delicious code!
+Start by heading over to [`basics.md`](./basics.md). There we'll start talking about (you guessed it) the basics and feast our eyes on some delicious code!
+
+## Table of Contents
+1. [`motivation.md`](./motivation.md)
+2. [`basics.md`](./basics.md)
+3. [`using-files.md`](./using-files.md)
+4. [`datbases.md`](./datbases.md)
