@@ -7,3 +7,9 @@ Welcome to the workshop! Today we're going to be talking about Databases and Dat
 To get started, head over to `motivation.md` to read about the uses of databases and data persistence.
 
 As always, please ask for help from an organizer (they're literally everywhere) if you get lost. We're here to help, so don't hesitate. And be sure to be respectful of your fellow hackers. It's gonna be a fun time!
+
+## Table of Contents
+1. [`motivation.md`](./motivation.md)
+2. [`basics.md`](./basics.md)
+3. [`using-files.md`](./using-files.md)
+4. [`datbases.md`](./datbases.md)
