@@ -12,7 +12,7 @@ This means that once a program is done running, all of things we stored in varia
 
 Let's look at an example of this:
 
-```
+```python
 def print_some_data():
 
     some_data = input("Enter some data here: ")
@@ -23,7 +23,7 @@ This code takes information from the user and then prints it out. But once the p
 
 But what if the user already wrote some information in another file and we want to print the contents of that file instead of making them re-type everything all over again? Let's take a look at how we can do that:
 
-```
+```python
 def printfile(filename):
 
     file = open(filename, "r") # open the file
