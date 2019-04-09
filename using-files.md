@@ -22,7 +22,7 @@ the data from them and use them in our programs. We saw an
 example of this in `basics.md`. Let's look at that one more
 time.
 
-```
+```python
 def printfile(filename):
 
     file = open(filename, "r")  # line a
@@ -65,7 +65,7 @@ Lines `c` and `d` use a `for` loop to iterate (in other words to go thru) each l
 Reading files is really useful, but what happens if we want to generate our own data and store that in files of our own? Well thankfully, python let's us do this too! And even better, we get to use the same `open(...)` function! The only difference is that now, we have to pass in the string `"w"` into the second parameter to denote that we're opening the file in `write` mode! Let's take a look at some
 code:
 
-```
+```python
 def write(filename, listOfLines):
 
     # filename is the name of the file to write to
