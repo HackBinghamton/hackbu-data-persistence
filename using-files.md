@@ -25,20 +25,20 @@ time.
 ```python
 def printfile(filename):
 
-    file = open(filename, "r")  # line a
-    lines = list(file)          # line b
+    myfile = open(filename, "r")  # line a
 
-    # Now print the list
-    for line in lines:          # line c
-        print(line)             # line d
+    # Now print the lines of the file
+    for line in myfile:           # line b
+        print(line)               # line c
 
+    myfile.close()                # line d
 ```
 
 Let's dissect this program to see what's going on.
 
 In line `a`, we use the `open(...)` function to open up a
 file. For simplicity, we store the file in a variable
-called `file`, but you can name the variable anything
+called `myfile`, but you can name the variable anything
 you want. We pass 2 arguments into the function:
 * The first argument is a string that holds the name of
   the file we want to read. In the case above the string `filename` is the parameter passed into the function.
@@ -53,12 +53,9 @@ ways that we can read from it and use its information.
 One of those ways is in the very code snippet that we're
 observing!
 
-In line `b`, we store all of the lines of `file`
-in a list. The way shown in this code snippet is
-a very simple way of doing this, and there are ways
-of doing the same exact thing.
+Lines `b` and `c` use a `for` loop to iterate (in other words to go thru) each line in the list that we stored and print each line.
 
-Lines `c` and `d` use a `for` loop to iterate (in other words to go thru) each line in the list that we stored and print each line.
+In line `d`, we close the file so that other functions can open and use it later.
 
 ### Writing to Files
 
@@ -72,18 +69,18 @@ def write(filename, listOfLines):
     # listOfLines is a list of lines to write
     #   - assume plain text (alphanumeric) in listOfLines
 
-    file = open(filename, "w")  # line a
+    myfile = open(filename, "w")  # line a
 
-    for line in listOfLines:    # line b
+    for line in listOfLines:      # line b
+        myfile.write(line)        # line c
+        myfile.write("\n")        # line d
 
-        file.write(line)        # line c
-        file.write("\n")        # line d
-
+    myfile.close()                # line e
 ```
 
 Once again, let's dissect this code.
 
-In line `a`, we open the file. This is no different from the way that we did it to read the file **except** that we pass in `"w"` to write instead of `"r"` for reading. We can now refer to `file` as the file that we have opened.
+In line `a`, we open the file. This is no different from the way that we did it to read the file **except** that we pass in `"w"` to write instead of `"r"` for reading. We can now refer to `myfile` as the file that we have opened.
 
 :warning: Note that passing `"w"` in for the mode will *__always__* create a new file. This means that if the file doesn't exist, it will be created. *__If the file already exists, your code will write over the existing file, thus deleting all the previous contents of the existing file.__* Please be careful when using this function in write mode.
 
@@ -92,6 +89,8 @@ In line `b`, we start using a `for` loop. We are going to iterate thru `listOfLi
 In line `c`, we use the `write()` function to (you guessed it) write to the file. The argument is a string, and line represents a line from listOfLines.
 
 In line `d`, we write a newline to the file as well. This won't be interpreted as text, instead it will put a line break after the contents of `line` (which we previously wrote to the file in the line above).
+
+In line `e`, again we close the file so that other functions can open it and use it again.
 
 ### How is this useful? 🤔
 

@@ -26,12 +26,13 @@ But what if the user already wrote some information in another file and we want 
 ```python
 def printfile(filename):
 
-    file = open(filename, "r") # open the file
-    lines = list(file) # store all the lines in a list
+    myfile = open(filename, "r") # open the file
 
-    # Now print the list
-    for line in lines:
+    # Now print the lines of the file 
+    for line in myfile:
         print(line)
+
+    myfile.close()
 
 ```
 
